@@ -6,9 +6,9 @@ a.forEach((v, i) => {
         if (!v.classList.contains('._acat')) {
             v.click();
             contador++;
-            console.log('você ja seguiu ' + contador + ' pessoas')
+            console.log('Você já seguiu ' + contador + ' pessoas!')
         } else {
-            console.log('você ja segue esse usuario')
+            console.log('Você já segue este usuário!')
         }
     }, i * 10000
     )
